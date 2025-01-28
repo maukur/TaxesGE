@@ -1,6 +1,5 @@
 // LoginPresenter.swift
 import SwiftUI
-
 final class LoginPresenter: LoginPresenterProtocol {
     private weak var viewState: LoginViewStateProtocol?
     private let router: LoginRouterProtocol
@@ -14,7 +13,7 @@ final class LoginPresenter: LoginPresenterProtocol {
 
     func login(withPin pin: String) {
         if interactor.validatePin(pin) {
-            router.navigateToHome()
+            router.close()
         } else {
             viewState?.showError("Invalid PIN")
         }
@@ -25,7 +24,7 @@ final class LoginPresenter: LoginPresenterProtocol {
             let success = await interactor.authenticateWithFaceID()
             if success {
                 await MainActor.run {
-                    router.navigateToHome()
+                    router.close()
                 }
             } else {
                 viewState?.showError("Face ID is not set up or authentication failed")
@@ -36,7 +35,7 @@ final class LoginPresenter: LoginPresenterProtocol {
     func setNewPin(_ pin: String, confirmPin: String) {
         if pin == confirmPin {
             interactor.saveNewPin(pin)
-            router.navigateToHome() // Переход на главную страницу после установки пин-кода
+            router.close()
         } else {
             viewState?.showError("PINs do not match")
         }

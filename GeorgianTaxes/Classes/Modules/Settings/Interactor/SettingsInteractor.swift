@@ -2,13 +2,17 @@
 import Foundation
 
 final class SettingsInteractor: SettingsInteractorProtocol {
-    private let userDefaults = UserDefaults.standard
+    private let securityService: SecurityServiceType
+
+    init(securityService: SecurityServiceType) {
+        self.securityService = securityService
+    }
 
     func saveSecurityState(_ isEnabled: Bool) {
-        userDefaults.set(isEnabled, forKey: "securityEnabled")
+        securityService.setSecurityEnabled(isEnabled)
     }
 
     func loadSecurityState() -> Bool {
-        return userDefaults.bool(forKey: "securityEnabled")
+        return securityService.isSecurityEnabled()
     }
 }

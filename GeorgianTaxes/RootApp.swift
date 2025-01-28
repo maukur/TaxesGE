@@ -25,7 +25,7 @@ struct RootApp: App {
         container.apply(IncomeItemDataServiceAssembly.self)
         container.apply(SecureStorageServiceAssembly.self) // Добавляем SecureStorageServiceAssembly
         container.apply(FaceIDServiceAssembly.self) // Добавляем FaceIDServiceAssembly
-
+        container.apply(SecurityServiceAssembly.self) 
     
         
         // Modules
@@ -41,6 +41,11 @@ struct RootApp: App {
     init() {
         navigationService = container.resolve(NavigationAssembly.self).build() as! NavigationService
         appViewBuilder = ApplicationViewBuilder(container: container)
+        
+        let securityService = container.resolve(SecurityServiceAssembly.self).build()
+        if securityService.isSecurityEnabled() {
+            navigationService.modalView = .login
+        } 
     }
     
     

@@ -8,7 +8,7 @@ final class LoginRouter: LoginRouterProtocol {
         self.navigation = navigation
     }
 
-    func navigateToHome() {
-        navigation.items.append(.incomesList)
+    func close() {
+        navigation.modalView = nil
     }
 }

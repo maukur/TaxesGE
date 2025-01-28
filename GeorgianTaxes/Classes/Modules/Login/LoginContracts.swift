@@ -2,7 +2,7 @@
 import SwiftUI
 
 protocol LoginRouterProtocol: RouterProtocol {
-    func navigateToHome()
+    func close()
 }
 
 protocol LoginPresenterProtocol: PresenterProtocol {

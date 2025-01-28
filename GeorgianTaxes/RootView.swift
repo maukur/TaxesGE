@@ -15,17 +15,14 @@ struct RootView: View {
     
     var body: some View {
         NavigationStack(path: $navigationService.items) {
-            appViewBuilder.build(view: .login)
+            appViewBuilder.build(view: .incomesList)
                 .navigationDestination(for: Views.self) { path in
                     appViewBuilder.build(view: path)
                 }
         }
         .fullScreenCover(isPresented: .constant($navigationService.modalView.wrappedValue != nil)) {
             if let modal = navigationService.modalView {
-                switch modal {
-                default:
-                    fatalError()
-                }
+                appViewBuilder.build(view: modal)
             }
         }
         .alert(isPresented: .constant($navigationService.alert.wrappedValue != nil)) {
