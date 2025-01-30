@@ -17,13 +17,17 @@ final class AddIncomePresenter: AddIncomePresenterProtocol {
     private weak var viewState: AddIncomeViewStateProtocol?
     private let router: AddIncomeRouterProtocol
     private let interactor: AddIncomeInteractorProtocol
+    private let didFinished: (()->Void)?
+
     
     public init(router: AddIncomeRouterProtocol,
                 interactor: AddIncomeInteractorProtocol,
-                viewState: AddIncomeViewStateProtocol) {
+                viewState: AddIncomeViewStateProtocol,
+                didFinished: (()->Void)?) {
         self.router = router
         self.interactor = interactor
         self.viewState = viewState
+        self.didFinished = didFinished
     }
     
     func addIncome(date: Date, amount: Double, name: String) {

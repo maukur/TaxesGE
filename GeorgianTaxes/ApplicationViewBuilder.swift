@@ -17,20 +17,20 @@ final class ApplicationViewBuilder : Assembly, ObservableObject {
     @ViewBuilder
     func build(view: Views) -> some View {
         switch view {
-        case .addIncome:
-            buildAddIncome()
+        case .addIncome(let didFinished):
+            buildAddIncome(didFinished: didFinished)
         case .login:
             buildLogin()
         case .incomesList:
             buildTax()
-        case .settings:
-            buildSettings()
+        case .settings(let didFinished):
+            buildSettings(didFinished:didFinished)
         }
     }
     
     @ViewBuilder
-    fileprivate func buildAddIncome() -> some View {
-        container.resolve(AddIncomeAssembly.self).build()
+    fileprivate func buildAddIncome(didFinished: (()->Void)?) -> some View {
+        container.resolve(AddIncomeAssembly.self).build(didFinished: didFinished)
     }
     
     @ViewBuilder
@@ -39,8 +39,8 @@ final class ApplicationViewBuilder : Assembly, ObservableObject {
     }
     
     @ViewBuilder
-    fileprivate func buildSettings() -> some View {
-        container.resolve(SettingsAssembly.self).build()
+    fileprivate func buildSettings(didFinished: (()->Void)?) -> some View {
+        container.resolve(SettingsAssembly.self).build(didFinished: didFinished)
     }
     
     @ViewBuilder

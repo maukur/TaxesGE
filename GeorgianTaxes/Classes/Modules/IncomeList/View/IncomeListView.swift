@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct IncomeListView: View {
-    @ObservedObject var viewState: IncomeListViewState
+    @StateObject var viewState: IncomeListViewState
 
     var body: some View {
         NavigationView {
@@ -58,7 +58,13 @@ private extension IncomeListView {
     
     func yearFooter(_ yearSec: YearSection) -> some View {
         let yearTax = yearSec.months.reduce(0.0) { $0 + $1.totalTax }
-        return Text("Tax for year: \(yearTax, specifier: "%.2f") ₾")
+        let yearIncome = yearSec.months.flatMap{$0.items}.reduce(0.0) { $0 + $1.income }
+        
+        return HStack {
+            Text("Tax for year: \(yearTax, specifier: "%.2f") ₾")
+            Spacer()
+            Text("Incomes for year: \(yearIncome, specifier: "%.2f") $")
+        }
     }
     
     func monthHeader(_ monthSec: MonthSection) -> some View {

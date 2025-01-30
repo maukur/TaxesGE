@@ -2,8 +2,8 @@
 import Foundation
 
 protocol IncomeListRouterProtocol: RouterProtocol {
-    func navigateToAddIncome()
-    func navigateToSettings() // Новый метод для навигации к экрану настроек
+    func navigateToAddIncome(didFinished: (()->Void)?) // Нов
+    func navigateToSettings(didFinished: (()->Void)?) // Новый метод для навигации к экрану настроек
 }
 
 protocol IncomeListProtocol: PresenterProtocol {

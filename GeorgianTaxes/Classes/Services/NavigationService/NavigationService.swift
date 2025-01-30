@@ -33,10 +33,10 @@ enum Views: Equatable, Hashable {
         hasher.combine(self.stringKey)
     }
     
-    case addIncome
+    case addIncome(didFinished:(()->Void)?)
     case incomesList
     case login
-    case settings
+    case settings(didFinished:(()->Void)?)
     
     var stringKey: String {
         switch self {

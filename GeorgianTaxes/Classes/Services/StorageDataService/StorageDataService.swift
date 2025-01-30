@@ -10,12 +10,11 @@ import Foundation
 import RealmSwift
 
 final class StorageDataService : StorageDataServiceType {
-     
-    
     
     
     fileprivate var realm: Realm?
     fileprivate let backgroundQueee: DispatchQueue
+    
     
     init() {
         backgroundQueee = DispatchQueue(label: "realm-queue")
@@ -198,6 +197,75 @@ final class StorageDataService : StorageDataServiceType {
         } catch {
             assertionFailure("Update")
         }
+    }
+    
+    
+    func exportDatabase() async throws -> Data {
+        guard let realm = realm else {
+            throw NSError(domain: "StorageDataService", code: 1, userInfo: [NSLocalizedDescriptionKey: "Realm is not initialized"])
+        }
+        
+        let fileURL = realm.configuration.fileURL!
+        return try Data(contentsOf: fileURL)
+    }
+
+    // Новый метод для импорта базы данных
+    func importDatabase(from data: Data) async throws {
+        guard let realm = realm else {
+            throw NSError(domain: "StorageDataService", code: 1, userInfo: [NSLocalizedDescriptionKey: "Realm is not initialized"])
+        }
+        
+        let fileURL = realm.configuration.fileURL!
+        try data.write(to: fileURL, options: .atomic)
+    }
+    
+     func writeCopy(toFile: URL) async throws {
+        do {
+            try await withUnsafeThrowingContinuation {[weak self] res in
+                guard let self else {
+                    res.resume()
+                    return
+                }
+                backgroundQueee.async {
+                    guard let realm =  self.realm else {
+                        res.resume()
+                        return
+                    }
+                    try? realm.write {
+                        try realm.writeCopy(toFile: toFile)
+                    }
+                    res.resume()
+                }
+            }
+        } catch {
+            assertionFailure("Update")
+        }
+               
+         
+    }
+    
+     func invalidate() async throws {
+        do {
+            try await withUnsafeThrowingContinuation {[weak self] res in
+                guard let self else {
+                    res.resume()
+                    return
+                }
+                backgroundQueee.sync {
+                    let configuration = Realm.Configuration(schemaVersion: UInt64(Constants.Versions.dataBaseVersion), deleteRealmIfMigrationNeeded: false)
+                    do {
+                        self.realm = try Realm(configuration: configuration, queue: self.backgroundQueee)
+                    } catch {
+                        print(error)
+                    }
+                    res.resume()
+                }
+            }
+        } catch {
+            assertionFailure("invalidate")
+        }
+               
+         
     }
 }
 

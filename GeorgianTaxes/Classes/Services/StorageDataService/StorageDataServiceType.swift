@@ -17,6 +17,10 @@ protocol StorageDataServiceType: AnyObject{
     func update<T: Object>(item: T) async
     func delete<T: Object>(items: [T]) async
     func delete<T: Object>(_ type: T.Type, by ids: [UUID]) async
+
     
+    func writeCopy(toFile: URL) async throws 
+    func invalidate() async throws 
+
 }
 

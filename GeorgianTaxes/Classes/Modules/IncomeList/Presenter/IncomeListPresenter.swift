@@ -46,11 +46,25 @@ final class IncomeListPresenter: IncomeListProtocol {
     }
     
     func didTapAddIncome() {
-        router.navigateToAddIncome()
+        router.navigateToAddIncome(didFinished: updateData)
     }
     
     func didTapSettings() {
-        router.navigateToSettings()
+        router.navigateToSettings(didFinished:updateData)
     }
+    
+    func updateData() {
+        Task {
+            do {
+                let sections = try await interactor.loadData()
+                await MainActor.run {
+                    viewState?.updateSections(sections)
+                }
+            } catch {
+                // обработка ошибок
+            }
+        }
+    }
+
     
 }

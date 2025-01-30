@@ -26,6 +26,7 @@ struct RootApp: App {
         container.apply(SecureStorageServiceAssembly.self) // Добавляем SecureStorageServiceAssembly
         container.apply(FaceIDServiceAssembly.self) // Добавляем FaceIDServiceAssembly
         container.apply(SecurityServiceAssembly.self) 
+        container.apply(BackupServiceAssembly.self) 
     
         
         // Modules

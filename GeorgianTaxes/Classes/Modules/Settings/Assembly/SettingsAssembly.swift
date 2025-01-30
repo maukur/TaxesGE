@@ -1,21 +1,21 @@
 import SwiftUI
 
 final class SettingsAssembly: Assembly {
-    func build() -> some View {
+    func build(didFinished:(()->Void)?) -> some View {
         let navigation = container.resolve(NavigationAssembly.self).build()
-        let securityService = container.resolve(SecurityServiceAssembly.self).build()
         
-        // Router
-        let router = SettingsRouter(navigation: navigation)
+        // Services
+        let securityService = container.resolve(SecurityServiceAssembly.self).build()
+        let backupService = container.resolve(BackupServiceAssembly.self).build()
         
         // Interactor
-        let interactor = SettingsInteractor(securityService: securityService)
+        let interactor = SettingsInteractor(securityService: securityService, backupService: backupService)
         
         // ViewState
         let viewState = SettingsViewState()
         
         // Presenter
-        let presenter = SettingsPresenter(router: router, interactor: interactor, viewState: viewState)
+        let presenter = SettingsPresenter(router: SettingsRouter(navigation: navigation), interactor: interactor, viewState: viewState, didFinished: didFinished)
         
         viewState.setPresenter(presenter)
         

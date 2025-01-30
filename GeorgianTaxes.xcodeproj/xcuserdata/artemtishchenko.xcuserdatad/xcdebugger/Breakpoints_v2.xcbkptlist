@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "438FF537-C916-425E-B049-70B39CACC48A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GeorgianTaxes/Classes/Services/FaceIDService/FaceIDService.swift"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9EF1EFE2-E108-43DC-BFE1-C096F85A058D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GeorgianTaxes/Classes/Services/FaceIDService/FaceIDService.swift"
@@ -65,6 +65,766 @@
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "authenticate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAC26CAA-B5A3-43B7-BA26-CEED3269F71C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "exportDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE745BD0-DE3C-4052-AEC8-788853AF7607"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "exportDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AFF074F-5BE3-4DCD-846E-DA3CB89DEE72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "exportDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E7212ED-5BB3-43FE-84BF-0EF3D1E73165"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E7212ED-5BB3-43FE-84BF-0EF3D1E73165 - e1e5e8d95c665907"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+               <Location
+                  uuid = "2E7212ED-5BB3-43FE-84BF-0EF3D1E73165 - 39de17ca51c2380"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+               <Location
+                  uuid = "2E7212ED-5BB3-43FE-84BF-0EF3D1E73165 - 2ebc9a29c9f91a19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+               <Location
+                  uuid = "2E7212ED-5BB3-43FE-84BF-0EF3D1E73165 - 5b778c787b7cc71b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16B16944-0EF2-41A7-8D27-4AA48DCCB72D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16B16944-0EF2-41A7-8D27-4AA48DCCB72D - 2ebc9a29c9f91a3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "16B16944-0EF2-41A7-8D27-4AA48DCCB72D - 74d31301803ea4b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "16B16944-0EF2-41A7-8D27-4AA48DCCB72D - 5b778c787b7cc738"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5E7F1C7-2F4D-4A60-90D7-4E21E48CD163"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5E7F1C7-2F4D-4A60-90D7-4E21E48CD163 - 307e6bad51619906"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52">
+               </Location>
+               <Location
+                  uuid = "F5E7F1C7-2F4D-4A60-90D7-4E21E48CD163 - d2f42caa56a40502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52">
+               </Location>
+               <Location
+                  uuid = "F5E7F1C7-2F4D-4A60-90D7-4E21E48CD163 - 2bab5cd4972aa403"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52">
+               </Location>
+               <Location
+                  uuid = "F5E7F1C7-2F4D-4A60-90D7-4E21E48CD163 - 640ecc15d799c30c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2A63598-30EE-4A6A-9B30-644745C823F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DC1944D-11A4-43D4-8028-A238F3C9D179"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA21163B-93B4-4ABD-A6B3-D815323A2CE5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA21163B-93B4-4ABD-A6B3-D815323A2CE5 - b522f68ab2e29caa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+               <Location
+                  uuid = "DA21163B-93B4-4ABD-A6B3-D815323A2CE5 - 326462e24a12e761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+               <Location
+                  uuid = "DA21163B-93B4-4ABD-A6B3-D815323A2CE5 - e1e5e8d95c6659a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+               <Location
+                  uuid = "DA21163B-93B4-4ABD-A6B3-D815323A2CE5 - 74d31301803ea435"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for GeorgianTaxes.BackupService.backupDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99A4C77F-7737-48F8-BAE2-97378FC5F5EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A0E6ECB-EDA1-490F-A6D5-901073F9E936"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "backupDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46DC7D0A-2D66-4A44-A5AE-86BC806FE3E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C443812-9055-477F-B033-F66C3F09BEC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C443812-9055-477F-B033-F66C3F09BEC6 - 93867da0168aaad9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async -&gt; () in GeorgianTaxes.SettingsPresenter.restoreDatabase() -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+               <Location
+                  uuid = "3C443812-9055-477F-B033-F66C3F09BEC6 - b01c4a29ad2407f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 () async -&gt; () in GeorgianTaxes.SettingsPresenter.restoreDatabase() -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+               <Location
+                  uuid = "3C443812-9055-477F-B033-F66C3F09BEC6 - fdfd958f9c636ed7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in GeorgianTaxes.SettingsPresenter.restoreDatabase() -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+               <Location
+                  uuid = "3C443812-9055-477F-B033-F66C3F09BEC6 - 8921af123638e7f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; Swift.Optional&lt;()&gt; in closure #1 () async -&gt; () in GeorgianTaxes.SettingsPresenter.restoreDatabase() -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42DD435A-D10C-4149-9BDA-4B06ADE62F6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83AC72AD-27DC-421F-B4A4-BF85A585A845"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/Settings/Presenter/SettingsPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56744F3A-D537-4186-8ACE-07C48EBE1D85"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56744F3A-D537-4186-8ACE-07C48EBE1D85 - 307e6bad51619ac0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50">
+               </Location>
+               <Location
+                  uuid = "56744F3A-D537-4186-8ACE-07C48EBE1D85 - b08e88af804f2e1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50">
+               </Location>
+               <Location
+                  uuid = "56744F3A-D537-4186-8ACE-07C48EBE1D85 - 41b30b28d64744c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50">
+               </Location>
+               <Location
+                  uuid = "56744F3A-D537-4186-8ACE-07C48EBE1D85 - 2bab5cd4972aa7c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DABE1B7-83E5-42B9-AD19-22A2FA81C639"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "restoreDatabase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DABE1B7-83E5-42B9-AD19-22A2FA81C639 - 41b30b28d64744e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51">
+               </Location>
+               <Location
+                  uuid = "6DABE1B7-83E5-42B9-AD19-22A2FA81C639 - 8b068395a791eabe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51">
+               </Location>
+               <Location
+                  uuid = "6DABE1B7-83E5-42B9-AD19-22A2FA81C639 - d2f42caa56a406e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51">
+               </Location>
+               <Location
+                  uuid = "6DABE1B7-83E5-42B9-AD19-22A2FA81C639 - 640ecc15d799c0ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for GeorgianTaxes.BackupService.restoreDatabase() async throws -&gt; ()"
+                  moduleName = "GeorgianTaxes.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemtishchenko/Repos/taxesge/GeorgianTaxes/Classes/Services/BackupService/BackupService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3591F59-EE0D-48EA-811C-6AD3BD5D10BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "invalidate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22040F30-6B60-41EB-B77D-8050DC337AEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "invalidate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C0DBA78-4BD2-440D-A576-535B53DCE54C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "invalidate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65A603CB-4F4C-43A6-8D7C-6FD97CAC7BE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "invalidate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAF9A84D-3C8A-4D94-875C-3C86D43FDE9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Services/StorageDataService/StorageDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "invalidate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D29559BC-E150-4F70-8CA8-A5024BC57C78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeorgianTaxes/Classes/Modules/IncomeList/ViewState/IncomeListViewState.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "updateSections(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

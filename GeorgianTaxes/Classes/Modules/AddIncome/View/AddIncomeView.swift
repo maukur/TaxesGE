@@ -43,7 +43,7 @@ struct AddIncomeView: View {
 }
 struct MainPreviews: PreviewProvider {
     static var previews: some View {
-        ApplicationViewBuilder.stub.build(view: .addIncome)
+        ApplicationViewBuilder.stub.build(view: .addIncome(didFinished: nil))
     }
 }
 

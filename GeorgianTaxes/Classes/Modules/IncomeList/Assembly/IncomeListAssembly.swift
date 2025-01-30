@@ -7,8 +7,6 @@
 
 
 import SwiftUI
-import SwiftUI
-import Foundation
 import Foundation
 
 final class IncomeListAssembly: Assembly {

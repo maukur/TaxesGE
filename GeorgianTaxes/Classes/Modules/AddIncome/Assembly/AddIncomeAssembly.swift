@@ -11,8 +11,8 @@ import SwiftUI
 
 final class AddIncomeAssembly: Assembly {
     
-    func build() -> some View {
-        
+    func build(didFinished:(()->Void)?) -> some View {
+
         let navigation = container.resolve(NavigationAssembly.self).build()
         let storage = container.resolve(StorageDataServiceAssembly.self).build()
         let incomeDataService = container.resolve(IncomeItemDataServiceAssembly.self).build(storage: storage)
@@ -29,8 +29,9 @@ final class AddIncomeAssembly: Assembly {
 
         // Presenter
         let presenter = AddIncomePresenter(router: router,
-                                                           interactor: interactor,
-                                                           viewState: viewState)
+                                           interactor: interactor,
+                                           viewState: viewState,
+                                           didFinished: didFinished)
         
         viewState.setPresenter(presenter)
         
